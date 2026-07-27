@@ -1,0 +1,27 @@
+# Background Image Integration for Homio Room Card Template
+# This file contains the CSS style modifications to integrate background images
+# into the room card template (homio_room.yaml)
+
+# IMPLEMENTATION GUIDE:
+# 
+# Add to homio_room.yaml card styles section:
+#
+#   background-image: |
+#     [[[
+  #     return entity.variables?.background_image 
+  #       ? `url('${entity.variables.background_image}')`  
+  #       : 'none';
+#     ]]]
+  #   background-size: cover
+  #   background-position: center center
+  #   background-attachment: fixed
+  #   background-repeat: no-repeat
+  #   filter: brightness(0.7) saturate(1.1)
+  #
+  # Add to room definitions in homio.yaml:
+  #
+  #   variables:
+  #     background_image: /local/images/backgrounds/lounge.jpg
+  #
+  # See dashboards/templates/backgrounds/ for configuration files
+  # See local/images/backgrounds/README.md for setup instructions
