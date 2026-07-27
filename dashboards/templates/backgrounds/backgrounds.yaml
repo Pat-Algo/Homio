@@ -1,0 +1,52 @@
+# Main background configuration for Homio
+  # This file centralizes all background settings
+
+  backgrounds:
+    lounge:
+    image: /local/images/backgrounds/lounge.jpg
+          description: "Living room / Lounge background"
+                size: cover
+                      position: center center
+                            attachment: fixed
+                                  opacity: 1
+
+                                      bedroom:
+    image: /local/images/backgrounds/bedroom.jpg
+          description: "Main bedroom background"
+                size: cover
+                      position: center center
+                            attachment: fixed
+                                  opacity: 1
+
+                                      kitchen:
+    image: /local/images/backgrounds/kitchen.jpg
+          description: "Kitchen background"
+                size: cover
+                      position: center center
+                            attachment: fixed
+                                  opacity: 1
+
+                                      dining:
+    image: /local/images/backgrounds/dining.jpg
+          description: "Dining area background"
+                size: cover
+                      position: center center
+                            attachment: fixed
+                                  opacity: 1
+
+                                      guest_bedroom:
+    image: /local/images/backgrounds/guest_bedroom.jpg
+          description: "Guest bedroom background"
+                size: cover
+                      position: center center
+                            attachment: fixed
+                                  opacity: 1
+
+                                      # Fallback/default background
+                                      default:
+    image: /local/images/backgrounds/default.jpg
+          description: "Default background"
+                size: cover
+                      position: center center
+                            attachment: fixed
+                                  opacity: 1
