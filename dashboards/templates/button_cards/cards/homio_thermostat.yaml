@@ -6,12 +6,10 @@ homio_thermostat:
             show_label: true
               label: |
                   [[[
-                      return "Actual " + entity.attributes.current_temperature +"°"
-                          ]]]
+            return "Actual " + entity?.attributes.current_temperature +""                          ]]]
                             state_display: |
                                 [[[
-                                    return entity.state === 'heat'
-                                          ? "Heating to " + entity.attributes.temperature + "°"
+            return entity?.state === 'heat'                                          ? "Heating to " + entity.attributes.temperature + "°"
                                                 : "Off";
                                                     ]]]
                                                       tap_action:
