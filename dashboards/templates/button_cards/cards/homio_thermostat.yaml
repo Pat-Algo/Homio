@@ -10,8 +10,7 @@ homio_thermostat:
                             state_display: |
                                 [[[
             return entity?.state === 'heat'                                          ? "Heating to " + entity.attributes.temperature + "°"
-                                                : "Off";
-                                                    ]]]
+            ? "Heating to " + entity?.attributes.temperature + ""                                                    ]]]
                                                       tap_action:
                                                           action: call-service
                                                               service: input_boolean.toggle
