@@ -51,3 +51,7 @@ homio:
   input-idle-line-color: var(--secondary-text-color)
   input-hover-line-color: var(--secondary-text-color)
   masonry-view-card-margin: "0px"
+
+  # ----- Dashboard Backgrounds ----- #
+  lovelace-background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('/local/images/Homio/rooms/default.jpg')
+  # View-specific backgrounds can be applied via custom lovelace config
