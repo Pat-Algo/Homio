@@ -6,6 +6,7 @@ views:
   - type: custom:grid-layout
     title: lounge
     path: lounge
+      background: url('/local/images/Homio/rooms/lounge.jpg') center/cover no-repeat fixed
     layout: !include /config/dashboards/templates/includes/homio_screen_layout.yaml
     cards:
       - type: custom:button-card
