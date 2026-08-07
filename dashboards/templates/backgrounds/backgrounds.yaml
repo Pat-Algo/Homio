@@ -1,52 +1,52 @@
 # Main background configuration for Homio
-  # This file centralizes all background settings
+# This file centralizes all background settings
 
-  backgrounds:
-    lounge:
-    image: /local/images/backgrounds/lounge.jpg
+backgrounds:
+  lounge:
+      image: /local/images/Homio/rooms/lounge.jpg
           description: "Living room / Lounge background"
-                size: cover
-                      position: center center
-                            attachment: fixed
-                                  opacity: 1
+              size: cover
+                  position: center center
+                      attachment: fixed
+                          opacity: 1
 
-                                      bedroom:
-    image: /local/images/backgrounds/bedroom.jpg
-          description: "Main bedroom background"
-                size: cover
-                      position: center center
-                            attachment: fixed
-                                  opacity: 1
+                            bedroom:
+                                image: /local/images/Homio/rooms/bedroom.jpg
+                                    description: "Main bedroom background"
+                                        size: cover
+                                            position: center center
+                                                attachment: fixed
+                                                    opacity: 1
 
-                                      kitchen:
-    image: /local/images/backgrounds/kitchen.jpg
-          description: "Kitchen background"
-                size: cover
-                      position: center center
-                            attachment: fixed
-                                  opacity: 1
+                                                      kitchen:
+                                                          image: /local/images/Homio/rooms/kitchen.jpg
+                                                              description: "Kitchen background"
+                                                                  size: cover
+                                                                      position: center center
+                                                                          attachment: fixed
+                                                                              opacity: 1
 
-                                      dining:
-    image: /local/images/backgrounds/dining.jpg
-          description: "Dining area background"
-                size: cover
-                      position: center center
-                            attachment: fixed
-                                  opacity: 1
-
-                                      guest_bedroom:
-    image: /local/images/backgrounds/guest_bedroom.jpg
-          description: "Guest bedroom background"
-                size: cover
-                      position: center center
-                            attachment: fixed
-                                  opacity: 1
-
-                                      # Fallback/default background
-                                      default:
-    image: /local/images/backgrounds/default.jpg
-          description: "Default background"
-                size: cover
-                      position: center center
-                            attachment: fixed
-                                  opacity: 1
+                                                                                dining:
+                                                                                    image: /local/images/Homio/rooms/dining.jpg
+                                                                                        description: "Dining area background"
+                                                                                            size: cover
+                                                                                                position: center center
+                                                                                                    attachment: fixed
+                                                                                                        opacity: 1
+                                                                                                        
+                                                                                                          guest_bedroom:
+                                                                                                              image: /local/images/Homio/rooms/guest_bedroom.jpg
+                                                                                                                  description: "Guest bedroom background"
+                                                                                                                      size: cover
+                                                                                                                          position: center center
+                                                                                                                              attachment: fixed
+                                                                                                                                  opacity: 1
+                                                                                                                                  
+                                                                                                                                    # Fallback/default background
+                                                                                                                                      default:
+                                                                                                                                          image: /local/images/Homio/rooms/default.jpg
+                                                                                                                                              description: "Default background"
+                                                                                                                                                  size: cover
+                                                                                                                                                      position: center center
+                                                                                                                                                          attachment: fixed
+                                                                                                                                                              opacity: 1
