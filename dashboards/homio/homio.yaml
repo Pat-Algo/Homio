@@ -1,6 +1,7 @@
 # You will need to replace the entities in the below button cards to your own otherwise you will just see a screen full of errors.
 
 button_card_templates: !include_dir_merge_named /config/dashboards/templates/button_cards
+backgrounds: !include /config/dashboards/templates/backgrounds/backgrounds.yaml
 views:
   - type: custom:grid-layout
     title: lounge
